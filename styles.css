@@ -225,3 +225,19 @@ footer {
   50% { filter: drop-shadow(0 2px 12px #90e0ef88) brightness(1.15); }
   100% { filter: drop-shadow(0 2px 6px #00b4d855) brightness(1); }
 }
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1.5rem;
+}
+.lang-switch img {
+  border-radius: 3px;
+  border: 1px solid #90e0ef;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.lang-switch img:hover {
+  box-shadow: 0 0 6px #00b4d8;
+}
