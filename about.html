@@ -32,9 +32,7 @@
       </ul>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2025 Hybrionix. All rights reserved.</p>
-  </footer>
+  <div id="main-footer"></div>
   <script src="translations.js"></script>
   <script>
     // Load navigation bar from nav.html
@@ -50,6 +48,13 @@
         // Apply translations after nav is loaded
         const lang = localStorage.getItem('lang') || 'en';
         applyTranslations(lang);
+      });
+
+    // Load footer from footer.html
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('main-footer').innerHTML = data;
       });
 
     function setLanguage(lang) {
