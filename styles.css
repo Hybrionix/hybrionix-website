@@ -189,18 +189,19 @@ form button:hover {
 /* Footer */
 footer {
   text-align: center;
-  padding: 1.5rem 0;
+  height: 64px;                /* set static height */
+  padding: 0;                  /* remove variable padding */
   border-top: 1px solid #90e0ef;
   color: #023047;
   font-size: 0.9rem;
-  margin-top: 4rem;
   user-select: none;
-  position: fixed;      /* add this */
-  left: 0;              /* add this */
-  bottom: 0;            /* add this */
-  width: 100%;          /* add this */
-  background: #f0f7f7;  /* match body or set as needed */
-  z-index: 1000;        /* ensure it's above other content */
-  box-shadow: 0 -2px 8px rgba(0, 180, 216, 0.08); /* subtle shadow */
-  margin-top: 0;        /* remove margin-top for fixed footer */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f0f7f7;
+  z-index: 1000;
+  box-shadow: 0 -2px 8px rgba(0, 180, 216, 0.08);
+  margin-top: 0;
+  line-height: 64px;           /* vertically center text */
 }
