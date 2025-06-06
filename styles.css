@@ -10,7 +10,8 @@ body {
   background-color: #f0f7f7;
   color: #023047;
   line-height: 1.6;
-  padding-top: 80px;
+  padding-top: 80px;   /* already present for header */
+  padding-bottom: 80px; /* add this for footer */
 }
 
 /* Header and navigation */
@@ -194,4 +195,12 @@ footer {
   font-size: 0.9rem;
   margin-top: 4rem;
   user-select: none;
+  position: fixed;      /* add this */
+  left: 0;              /* add this */
+  bottom: 0;            /* add this */
+  width: 100%;          /* add this */
+  background: #f0f7f7;  /* match body or set as needed */
+  z-index: 1000;        /* ensure it's above other content */
+  box-shadow: 0 -2px 8px rgba(0, 180, 216, 0.08); /* subtle shadow */
+  margin-top: 0;        /* remove margin-top for fixed footer */
 }
