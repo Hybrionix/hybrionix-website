@@ -8,8 +8,8 @@ window.translations = {
       contact: "Contact"
     },
     background: {
-      title: "Background – Hybrionix",
-      heading: "Hybrionix: Secure European Hybrid Environments",
+      title: "Our Background",
+      heading: "Our Background",
       p1: "Hybrionix is a leading provider of secure, innovative hybrid infrastructure solutions tailored for European enterprises and organizations. Our mission is to enable businesses to thrive in a digital-first world by delivering seamlessly integrated environments that combine the flexibility of public and private cloud with the highest standards of security and compliance.",
       p2: "Founded on the principles of trust, transparency, and technological excellence, Hybrionix helps organizations navigate the complexities of digital transformation. We specialize in designing, implementing, and managing hybrid IT environments that empower our clients to leverage the best of both cloud and on-premises solutions—without compromising on data sovereignty or regulatory requirements.",
       services_heading: "Our services include:",
@@ -69,8 +69,8 @@ window.translations = {
       contact: "Contact"
     },
     background: {
-      title: "Achtergrond – Hybrionix",
-      heading: "Hybrionix: Veilige Europese Hybride Omgevingen",
+      title: "Onze Achtergrond",
+      heading: "Onze Achtergrond",
       p1: "Hybrionix is een toonaangevende aanbieder van veilige, innovatieve hybride infrastructuuroplossingen op maat voor Europese ondernemingen en organisaties. Onze missie is om bedrijven te laten floreren in een digitale wereld door naadloos geïntegreerde omgevingen te leveren die de flexibiliteit van publieke en private cloud combineren met de hoogste normen van beveiliging en compliance.",
       p2: "Gebaseerd op de principes van vertrouwen, transparantie en technologische uitmuntendheid helpt Hybrionix organisaties bij het navigeren door de complexiteit van digitale transformatie. Wij zijn gespecialiseerd in het ontwerpen, implementeren en beheren van hybride IT-omgevingen waarmee onze klanten het beste van cloud en on-premises kunnen benutten—zonder concessies te doen aan gegevenssoevereiniteit of regelgeving.",
       services_heading: "Onze diensten omvatten:",
@@ -130,8 +130,8 @@ window.translations = {
       contact: "Kontakt"
     },
     background: {
-      title: "Hintergrund – Hybrionix",
-      heading: "Hybrionix: Sichere europäische Hybridumgebungen",
+      title: "Unser Hintergrund",
+      heading: "Unser Hintergrund",
       p1: "Hybrionix ist ein führender Anbieter sicherer, innovativer Hybrid-Infrastrukturlösungen für europäische Unternehmen und Organisationen. Unsere Mission ist es, Unternehmen in einer digitalen Welt zum Erfolg zu verhelfen, indem wir nahtlos integrierte Umgebungen bieten, die die Flexibilität von Public und Private Cloud mit höchsten Sicherheits- und Compliance-Standards verbinden.",
       p2: "Gegründet auf den Prinzipien Vertrauen, Transparenz und technologischer Exzellenz unterstützt Hybrionix Organisationen bei der Bewältigung der Herausforderungen der digitalen Transformation. Wir sind spezialisiert auf die Konzeption, Implementierung und Verwaltung hybrider IT-Umgebungen, die es unseren Kunden ermöglichen, das Beste aus Cloud- und On-Premises-Lösungen zu nutzen—ohne Kompromisse bei Datensouveränität oder regulatorischen Anforderungen.",
       services_heading: "Unsere Dienstleistungen umfassen:",
