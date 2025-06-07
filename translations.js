@@ -3,11 +3,13 @@ window.translations = {
     nav: {
       home: "Home",
       services: "Services",
+      servicesmain: "All Services",
       about: "About",
       background: "Background",
       contact: "Contact",
+      contactform: "Contact Form",
       microsoft: "Microsoft 365 & Azure",
-      lifecycle: "Lifecycle"
+      lifecycle: "Lifecycle Management"
     },
     microsoft: {
       title: "Microsoft 365 & Azure",
@@ -90,9 +92,13 @@ window.translations = {
     nav: {
       home: "Start",
       services: "Diensten",
+      servicesmain: "Alle diensten",
       about: "Over",
       background: "Achtergrond",
-      contact: "Contact"
+      contact: "Contact",
+      contactform: "Contactformulier",
+      microsoft: "Microsoft 365 & Azure",
+      lifecycle: "Lifecycle Management"
     },
     background: {
       title: "Onze Achtergrond",
@@ -151,9 +157,13 @@ window.translations = {
     nav: {
       home: "Startseite",
       services: "Dienstleistungen",
+      servicesmain: "Alle Dienstleistungen",
       about: "Über uns",
       background: "Hintergrund",
-      contact: "Kontakt"
+      contact: "Kontakt",
+      contactform: "Kontaktformular",
+      microsoft: "Microsoft 365 & Azure",
+      lifecycle: "Lifecycle Management"
     },
     background: {
       title: "Unser Hintergrund",

@@ -2,18 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.hybrionix.com/</loc>
+    <lastmod>2025-06-07</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.hybrionix.com/services.html</loc>
+    <lastmod>2025-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hybrionix.com/microsoft.html</loc>
+    <lastmod>2025-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hybrionix.com/lifecycle.html</loc>
+    <lastmod>2025-06-07</lastmod>
   </url>
   <url>
     <loc>https://www.hybrionix.com/about.html</loc>
+    <lastmod>2025-06-07</lastmod>
   </url>
   <url>
     <loc>https://www.hybrionix.com/background.html</loc>
+    <lastmod>2025-06-07</lastmod>
   </url>
   <url>
     <loc>https://www.hybrionix.com/contact.html</loc>
+    <lastmod>2025-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hybrionix.com/contactform.html</loc>
+    <lastmod>2025-06-07</lastmod>
   </url>
 </urlset>
