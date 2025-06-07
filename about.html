@@ -24,11 +24,18 @@
   <main>
     <section class="hero">
       <h2 data-i18n="about.title">About Hybrionix</h2>
-      <p data-i18n="about.p1">Hybrionix is a trusted IT partner specializing in secure, innovative hybrid infrastructure solutions for European organizations.</p>
+      <p data-i18n="about.p1">Hybrionix is a small, independent IT company founded on a passion for secure, personal, and custom IT solutions. We help organizations in Europe with hybrid infrastructure, cloud, and security—always with a personal touch.</p>
     </section>
     <section>
-      <h3 data-i18n="about.heading">About Hybrionix</h3>
-      <p data-i18n="about.p2">We combine deep knowledge of cloud, on-premises, and compliance to help organizations grow in a digital world.</p>
+      <h3 data-i18n="about.heading">Our Story</h3>
+      <p data-i18n="about.p2">With over 20 years of hands-on IT experience and more than 100 successful projects, we know what works in practice. We have worked for government, finance, housing, associations, and SMEs. Our founder is both architect and workplace specialist, with deep knowledge of on-premises and cloud environments.</p>
+      <h3 data-i18n="about.values_heading">Our Values</h3>
+      <ul>
+        <li data-i18n="about.values.0">Personal and direct contact</li>
+        <li data-i18n="about.values.1">Custom solutions, no one-size-fits-all</li>
+        <li data-i18n="about.values.2">Commitment, flexibility, and real dedication</li>
+        <li data-i18n="about.values.3">European privacy and compliance</li>
+      </ul>
       <h3 data-i18n="about.team_heading">Our Team</h3>
       <ul>
         <li data-i18n="about.team.0">Experienced IT specialists</li>
@@ -64,7 +71,6 @@
         nav.classList.toggle('open');
       }
     }
-
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);

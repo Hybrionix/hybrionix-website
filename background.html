@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Our Background – Hybrionix</title>
-  <meta name="description" content="Discover the background of Hybrionix and our expertise in secure, innovative hybrid infrastructure for European organizations." />
+  <title data-i18n="background.title">Our Background</title>
+  <meta name="description" data-i18n="background.meta_description" content="Discover the background of Hybrionix: expertise, sectors, and our European approach to IT." />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
   <!-- Open Graph -->
-  <meta property="og:title" content="Our Background – Hybrionix" />
-  <meta property="og:description" content="Discover the background of Hybrionix and our expertise in secure, innovative hybrid infrastructure for European organizations." />
+  <meta property="og:title" content="Our Background" />
+  <meta property="og:description" content="Discover the background of Hybrionix: expertise, sectors, and our European approach to IT." />
   <meta property="og:url" content="https://www.hybrionix.com/background.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Our Background – Hybrionix" />
-  <meta name="twitter:description" content="Discover the background of Hybrionix and our expertise in secure, innovative hybrid infrastructure for European organizations." />
+  <meta name="twitter:title" content="Our Background" />
+  <meta name="twitter:description" content="Discover the background of Hybrionix: expertise, sectors, and our European approach to IT." />
   <meta name="twitter:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
 </head>
 <body>
@@ -24,15 +24,17 @@
   <main>
     <section class="hero">
       <h2 data-i18n="background.title">Our Background</h2>
-      <p data-i18n="background.intro">Hybrionix is rooted in the European IT landscape, with a strong focus on security, compliance, and innovation.</p>
+      <p data-i18n="background.p1">Hybrionix was founded to bring personal, secure, and flexible IT to organizations in Europe. We combine practical experience with a strong focus on privacy, compliance, and custom solutions.</p>
     </section>
     <section>
-      <h3>European Datacenter Excellence</h3>
-      <p>Our infrastructure is hosted in secure, state-of-the-art datacenters near Amsterdam. This location offers excellent connectivity, privacy, and compliance with European regulations.</p>
-      <h3>Hybrid Cloud Pioneers</h3>
-      <p>We have been at the forefront of hybrid cloud adoption, helping organizations combine the best of private and public cloud for flexibility and control.</p>
-      <h3>Microsoft 365 & Azure</h3>
-      <p>Our team specializes in Microsoft 365 and Azure deployments, migrations, and management, ensuring seamless integration and maximum value.</p>
+      <h3 data-i18n="background.heading">Expertise & Sectors</h3>
+      <p data-i18n="background.p2">We have delivered projects for government, insurance, housing, associations, and SMEs. Our expertise covers architecture, security, migration, consulting, and workplace solutions—always tailored to the client.</p>
+      <h3 data-i18n="background.values_heading">European Approach</h3>
+      <ul>
+        <li data-i18n="background.values.0">Compliance with European regulations (GDPR, NIS2, etc.)</li>
+        <li data-i18n="background.values.1">Data sovereignty and privacy first</li>
+        <li data-i18n="background.values.2">Collaboration with trusted local and global partners</li>
+      </ul>
     </section>
   </main>
   <div id="main-footer"></div>
@@ -56,14 +58,12 @@
         document.getElementById('main-footer').innerHTML = data;
       });
 
-    // Hamburger menu support
     function toggleNav() {
       var nav = document.getElementById('main-nav');
       if (nav) {
         nav.classList.toggle('open');
       }
     }
-
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);

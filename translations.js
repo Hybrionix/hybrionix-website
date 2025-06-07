@@ -59,19 +59,16 @@ window.translations = {
     },
     background: {
       title: "Our Background",
-      heading: "Our Background",
-      p1: "Hybrionix is a leading provider of secure, innovative hybrid infrastructure solutions tailored for European enterprises and organizations. Our mission is to enable businesses to thrive in a digital-first world by delivering seamlessly integrated environments that combine the flexibility of public and private cloud with the highest standards of security and compliance.",
-      p2: "Founded on the principles of trust, transparency, and technological excellence, Hybrionix helps organizations navigate the complexities of digital transformation. We specialize in designing, implementing, and managing hybrid IT environments that empower our clients to leverage the best of both cloud and on-premises solutions—without compromising on data sovereignty or regulatory requirements.",
-      services_heading: "Our services include:",
-      services: [
-        "Secure cloud architecture and migration",
-        "Multi-cloud and on-premises integration",
-        "European data residency and compliance (GDPR, NIS2, etc.)",
-        "Managed security and threat monitoring",
-        "Business continuity and disaster recovery"
-      ],
-      p3: "With a commitment to European values and security standards, Hybrionix is your trusted partner for building resilient, future-proof digital infrastructures. We work with organizations across sectors—including finance, healthcare, government, and manufacturing—to create tailored solutions that foster innovation, agility, and peace of mind.",
-      p4: "Hybrionix: Where Security Meets Innovation, at the Heart of Europe."
+      meta_description: "Discover the background of Hybrionix: expertise, sectors, and our European approach to IT.",
+      p1: "Hybrionix was founded to bring personal, secure, and flexible IT to organizations in Europe. We combine practical experience with a strong focus on privacy, compliance, and custom solutions.",
+      heading: "Expertise & Sectors",
+      p2: "We have delivered projects for government, insurance, housing, associations, and SMEs. Our expertise covers architecture, security, migration, consulting, and workplace solutions—always tailored to the client.",
+      values_heading: "European Approach",
+      values: [
+        "Compliance with European regulations (GDPR, NIS2, etc.)",
+        "Data sovereignty and privacy first",
+        "Collaboration with trusted local and global partners"
+      ]
     },
     contact: {
       title: "Contact Us",
@@ -114,6 +111,26 @@ window.translations = {
       ],
       value: "We combine technology, expertise, and European compliance to keep your data and operations secure—now and in the future.",
       contact: "Contact us for a security assessment →"
+    },
+    about: {
+      title: "About Hybrionix",
+      meta_description: "Learn about Hybrionix: our mission, values, and commitment to secure, sovereign IT infrastructure for Europe.",
+      p1: "Hybrionix is a small, independent IT company founded on a passion for secure, personal, and custom IT solutions. We help organizations in Europe with hybrid infrastructure, cloud, and security—always with a personal touch.",
+      heading: "Our Story",
+      p2: "With over 20 years of hands-on IT experience and more than 100 successful projects, we know what works in practice. We have worked for government, finance, housing, associations, and SMEs. Our founder is both architect and workplace specialist, with deep knowledge of on-premises and cloud environments.",
+      values_heading: "Our Values",
+      values: [
+        "Personal and direct contact",
+        "Custom solutions, no one-size-fits-all",
+        "Commitment, flexibility, and real dedication",
+        "European privacy and compliance"
+      ],
+      team_heading: "Our Team",
+      team: [
+        "Experienced IT specialists",
+        "Certified cloud and security experts",
+        "Driven by European values and privacy"
+      ]
     }
   },
   nl: {
@@ -162,9 +179,17 @@ window.translations = {
     },
     about: {
       title: "Over Hybrionix",
-      heading: "Over Hybrionix",
-      p1: "Hybrionix is een betrouwbare IT-partner gespecialiseerd in veilige, innovatieve hybride infrastructuuroplossingen voor Europese organisaties.",
-      p2: "Wij combineren diepgaande kennis van cloud, on-premises en compliance om organisaties te helpen groeien in een digitale wereld.",
+      meta_description: "Lees meer over Hybrionix: onze missie, waarden en toewijding aan veilige, soevereine IT-infrastructuur voor Europa.",
+      p1: "Hybrionix is een klein, onafhankelijk IT-bedrijf ontstaan uit passie voor veilige, persoonlijke en maatwerk IT-oplossingen. Wij helpen organisaties in Europa met hybride infrastructuur, cloud en security—altijd met een persoonlijke aanpak.",
+      heading: "Ons verhaal",
+      p2: "Met meer dan 20 jaar praktijkervaring en ruim 100 succesvolle projecten weten wij wat werkt. We hebben gewerkt voor overheid, financiën, woningcorporaties, verenigingen en het MKB. De oprichter is zowel architect als werkplekspecialist, met diepgaande kennis van on-premises en cloud.",
+      values_heading: "Onze waarden",
+      values: [
+        "Persoonlijk en direct contact",
+        "Maatwerk oplossingen, geen standaardwerk",
+        "Betrokkenheid, flexibiliteit en echte toewijding",
+        "Europese privacy en compliance"
+      ],
       team_heading: "Ons team",
       team: [
         "Ervaren IT-specialisten",
@@ -188,19 +213,16 @@ window.translations = {
     },
     background: {
       title: "Onze Achtergrond",
-      heading: "Onze Achtergrond",
-      p1: "Hybrionix is een toonaangevende aanbieder van veilige, innovatieve hybride infrastructuuroplossingen op maat voor Europese ondernemingen en organisaties. Onze missie is om bedrijven te laten floreren in een digitale wereld door naadloos geïntegreerde omgevingen te leveren die de flexibiliteit van publieke en private cloud combineren met de hoogste normen van beveiliging en compliance.",
-      p2: "Gebaseerd op de principes van vertrouwen, transparantie en technologische uitmuntendheid helpt Hybrionix organisaties bij het navigeren door de complexiteit van digitale transformatie. Wij zijn gespecialiseerd in het ontwerpen, implementeren en beheren van hybride IT-omgevingen waarmee onze klanten het beste van cloud en on-premises kunnen benutten—zonder concessies te doen aan gegevenssoevereiniteit of regelgeving.",
-      services_heading: "Onze diensten omvatten:",
-      services: [
-        "Veilige cloudarchitectuur en migratie",
-        "Multi-cloud en on-premises integratie",
-        "Europese gegevensopslag en compliance (AVG, NIS2, enz.)",
-        "Beheerde beveiliging en dreigingsmonitoring",
-        "Business continuity en disaster recovery"
-      ],
-      p3: "Met een toewijding aan Europese waarden en beveiligingsnormen is Hybrionix uw vertrouwde partner voor het bouwen van veerkrachtige, toekomstbestendige digitale infrastructuren. Wij werken met organisaties in diverse sectoren—waaronder financiën, gezondheidszorg, overheid en industrie—om op maat gemaakte oplossingen te creëren die innovatie, flexibiliteit en gemoedsrust bevorderen.",
-      p4: "Hybrionix: Waar veiligheid en innovatie samenkomen, in het hart van Europa."
+      meta_description: "Ontdek de achtergrond van Hybrionix: expertise, sectoren en onze Europese aanpak van IT.",
+      p1: "Hybrionix is opgericht om persoonlijke, veilige en flexibele IT naar organisaties in Europa te brengen. We combineren praktijkervaring met een sterke focus op privacy, compliance en maatwerk.",
+      heading: "Expertise & Sectoren",
+      p2: "Wij hebben projecten geleverd voor overheid, verzekeringen, woningcorporaties, verenigingen en het MKB. Onze expertise omvat architectuur, security, migratie, consultancy en werkplekoplossingen—altijd op maat.",
+      values_heading: "Europese aanpak",
+      values: [
+        "Voldoen aan Europese regelgeving (AVG, NIS2, enz.)",
+        "Dataprivacy en soevereiniteit voorop",
+        "Samenwerking met vertrouwde lokale en wereldwijde partners"
+      ]
     },
     contact: {
       title: "Neem contact op",
@@ -243,123 +265,26 @@ window.translations = {
       ],
       value: "Wij combineren technologie, expertise en Europese compliance om uw data en processen veilig te houden—nu en in de toekomst.",
       contact: "Neem contact op voor een security assessment →"
-    }
-  },
-  de: {
-    nav: {
-      home: "Startseite",
-      services: "Dienstleistungen",
-      servicesmain: "Alle Dienstleistungen",
-      about: "Über uns",
-      background: "Hintergrund",
-      contact: "Kontakt",
-      contactform: "Kontaktformular",
-      microsoft: "Microsoft 365 & Azure",
-      lifecycle: "Lifecycle Management",
-      security: "IT-Sicherheit"
     },
-    index: {
-      hero_heading: "Sichere europäische Hybridumgebungen",
-      hero_p: "Hybrionix bietet Organisationen robuste, souveräne IT-Infrastrukturlösungen, vollständig gemanagt und gehostet in Europa. Wir arbeiten mit vertrauenswürdigen lokalen Rechenzentrumsanbietern und führenden Public-Cloud-Plattformen wie Microsoft Azure, um Compliance, Datenschutz und zuverlässige Konnektivität für Ihr Unternehmen zu gewährleisten.",
-      callout_heading: "Ihr vertrauenswürdiger IT-Partner in Europa",
-      callout_text: "Wir sind spezialisiert auf Private und Public Cloud, Microsoft 365, Azure und sichere Infrastrukturen – mit den besten lokalen und globalen Anbietern.",
-      callout_link: "Entdecken Sie unsere Dienstleistungen →",
-      why_heading: "Warum Hybrionix?",
-      why: [
-        "Persönliche, engagierte und maßgeschneiderte IT-Dienstleistungen",
-        "Direkter Kontakt und kurze Kommunikationswege",
-        "Über 20 Jahre praktische IT-Erfahrung",
-        "Von On-Premises bis Cloud, Security, Migration & Beratung",
-        "Wir sind engagiert, flexibel und kümmern uns wirklich um Ihren Erfolg"
+    about: {
+      title: "Over Hybrionix",
+      meta_description: "Erfahren Sie mehr über Hybrionix: unsere Mission, Werte und unser Engagement für sichere, souveräne IT-Infrastruktur in Europa.",
+      p1: "Hybrionix ist ein kleines, unabhängiges IT-Unternehmen, gegründet aus Leidenschaft für sichere, persönliche und maßgeschneiderte IT-Lösungen. Wir unterstützen Organisationen in Europa mit hybrider Infrastruktur, Cloud und Security – immer mit persönlicher Note.",
+      heading: "Unsere Geschichte",
+      p2: "Mit über 20 Jahren Praxiserfahrung und mehr als 100 erfolgreichen Projekten wissen wir, was in der Realität funktioniert. Wir haben für Behörden, Finanzwesen, Wohnungsbau, Vereine und den Mittelstand gearbeitet. Der Gründer ist sowohl Architekt als auch Arbeitsplatzspezialist mit tiefem Wissen über On-Premises und Cloud.",
+      values_heading: "Unsere Werte",
+      values: [
+        "Persönlicher und direkter Kontakt",
+        "Maßgeschneiderte Lösungen, keine Standardware",
+        "Engagement, Flexibilität und echte Hingabe",
+        "Europäischer Datenschutz und Compliance"
       ],
-      experience_heading: "Unsere Erfahrung",
-      experience_text: "Hybrionix ist ein kleines, aber sehr erfahrenes Unternehmen. Mit über zwei Jahrzehnten IT-Erfahrung und mehr als 100 erfolgreichen Projekten bieten wir Praxiswissen in Architektur, Security, Beratung, Migration und Arbeitsplatzlösungen. Wir haben maßgeschneiderte Lösungen für Behörden, Versicherungen, Wohnungsbaugesellschaften, Vereine und den Mittelstand geliefert. Unser Engagement und unsere Hingabe sorgen dafür, dass Sie immer den besten und persönlichsten Service erhalten."
-    },
-    microsoft: {
-      title: "Microsoft 365 & Azure",
-      meta_description: "Hybrionix ist spezialisiert auf Microsoft 365 und Azure: Migration, Integration, Sicherheit und Support durch zertifizierte europäische Experten.",
-      intro: "Nutzen Sie das volle Potenzial von Microsoft 365 und Azure mit Hybrionix.",
-      expertise_heading: "Unsere Expertise",
-      expertise: [
-        "Migration zu Microsoft 365 und Azure",
-        "Hybride Cloud-Integration mit On-Premises-Systemen",
-        "Sicherheit, Compliance und Identitätsmanagement",
-        "Laufende Unterstützung und Optimierung"
-      ],
-      certified: "Unsere zertifizierten Fachleute sorgen für einen reibungslosen Übergang und nachhaltigen Mehrwert aus Ihren Microsoft-Investitionen.",
-      contact: "Kontaktieren Sie uns, um Ihr Microsoft 365- oder Azure-Projekt zu besprechen →"
-    },
-    lifecycle: {
-      title: "Lifecycle Management & Kostenreduktion",
-      meta_description: "Hybrionix unterstützt Sie beim IT-Lifecycle-Management, bei der Kostenreduzierung und beim Maximieren des Nutzens Ihrer Infrastruktur.",
-      intro: "Optimieren Sie Ihre IT-Investitionen mit Lifecycle Management und Kostenkontrolle von Hybrionix.",
-      approach_heading: "Unser Ansatz",
-      approach: [
-        "Asset-Tracking und proaktive Upgrades",
-        "Kostenoptimierung für Cloud und On-Premises",
-        "Lieferantenmanagement und Vertragsprüfung",
-        "End-of-Life-Planung und sichere Außerbetriebnahme"
-      ],
-      value: "Wir helfen Ihnen, den größtmöglichen Nutzen aus Ihrer Infrastruktur zu ziehen, Verschwendung zu reduzieren und Compliance während des gesamten IT-Lifecycles sicherzustellen.",
-      contact: "Kontaktieren Sie uns, um mehr über Lifecycle Management zu erfahren →"
-    },
-    background: {
-      title: "Unser Hintergrund",
-      heading: "Unser Hintergrund",
-      p1: "Hybrionix ist ein führender Anbieter sicherer, innovativer Hybrid-Infrastrukturlösungen für europäische Unternehmen und Organisationen. Unsere Mission ist es, Unternehmen in einer digitalen Welt zum Erfolg zu verhelfen, indem wir nahtlos integrierte Umgebungen bieten, die die Flexibilität von Public und Private Cloud mit höchsten Sicherheits- und Compliance-Standards verbinden.",
-      p2: "Gegründet auf den Prinzipien Vertrauen, Transparenz und technologischer Exzellenz unterstützt Hybrionix Organisationen bei der Bewältigung der Herausforderungen der digitalen Transformation. Wir sind spezialisiert auf die Konzeption, Implementierung und Verwaltung hybrider IT-Umgebungen, die es unseren Kunden ermöglichen, das Beste aus Cloud- und On-Premises-Lösungen zu nutzen—ohne Kompromisse bei Datensouveränität oder regulatorischen Anforderungen.",
-      services_heading: "Unsere Dienstleistungen umfassen:",
-      services: [
-        "Sichere Cloud-Architektur und Migration",
-        "Multi-Cloud- und On-Premises-Integration",
-        "Europäische Datenresidenz und Compliance (DSGVO, NIS2, etc.)",
-        "Managed Security und Bedrohungsüberwachung",
-        "Business Continuity und Disaster Recovery"
-      ],
-      p3: "Mit Engagement für europäische Werte und Sicherheitsstandards ist Hybrionix Ihr vertrauensvoller Partner für den Aufbau widerstandsfähiger, zukunftssicherer digitaler Infrastrukturen. Wir arbeiten mit Organisationen aus verschiedenen Branchen—darunter Finanzen, Gesundheitswesen, Regierung und Industrie—um maßgeschneiderte Lösungen zu schaffen, die Innovation, Agilität und Sicherheit fördern.",
-      p4: "Hybrionix: Wo Sicherheit auf Innovation trifft – im Herzen Europas."
-    },
-    contact: {
-      title: "Kontaktieren Sie uns",
-      intro: "Lassen Sie uns besprechen, wie Hybrionix Ihre IT-Infrastruktur sichern kann.",
-      name: "Ihr Name",
-      email: "Ihre E-Mail",
-      message: "Ihre Nachricht",
-      send: "Nachricht senden",
-      direct: "Oder schreiben Sie uns direkt:"
-    },
-    services: {
-      title: "Unsere Dienstleistungen",
-      intro: "Sichere, skalierbare und konforme IT-Infrastruktur für europäische Organisationen.",
-      list: [
-        "<strong>Hybride Cloud-Lösungen:</strong> Integrieren Sie Public und Private Clouds nahtlos mit On-Premises-Infrastruktur – alles innerhalb Europas.",
-        "<strong>Managed Hosting:</strong> Dedizierte und virtuelle Server in ISO 27001-zertifizierten europäischen Rechenzentren.",
-        "<strong>Netzwerksicherheit:</strong> Firewalls, VPNs und Zero-Trust-Zugriff für Compliance und Resilienz.",
-        "<strong>Disaster Recovery & Backup:</strong> Verschlüsselte, geo-redundante Backups und schnelle Wiederherstellungspläne.",
-        "<strong>Compliance-Beratung:</strong> DSGVO, NIS2 und branchenspezifische Regulierung.",
-        "<strong>24/7 Monitoring & Support:</strong> Proaktive Überwachung und schnelle Reaktion durch europäische Experten."
-      ],
-      callout_heading: "Bereit, Ihre Infrastruktur zu sichern?",
-      callout_link: "Kontaktieren Sie uns für eine kostenlose Beratung →"
-    },
-    security: {
-      title: "IT-Sicherheit & Compliance",
-      meta_description: "Hybrionix bietet fortschrittliche IT-Sicherheit: Firewalls, VPN, Zero-Trust, Compliance, Monitoring, Bedrohungserkennung und Datenschutz für europäische Organisationen.",
-      intro: "Schützen Sie Ihre Organisation mit Hybrionix: fortschrittliche Sicherheit, Compliance und 24/7 Monitoring für europäische IT-Umgebungen.",
-      topics_heading: "Unsere Sicherheitslösungen",
-      topics: [
-        "Next-Generation Firewalls und Intrusion Prevention",
-        "VPN und sicherer Fernzugriff",
-        "Zero-Trust-Netzwerkarchitektur",
-        "Kontinuierliche Compliance (DSGVO, NIS2, ISO 27001)",
-        "24/7 Monitoring und Bedrohungserkennung",
-        "Datenverschlüsselung und Data Loss Prevention",
-        "Identity & Access Management",
-        "Schwachstellenmanagement und Patching",
-        "Incident Response und Disaster Recovery"
-      ],
-      value: "Wir verbinden Technologie, Fachwissen und europäische Compliance, um Ihre Daten und Prozesse jetzt und in Zukunft zu schützen.",
-      contact: "Kontaktieren Sie uns für ein Security Assessment →"
+      team_heading: "Unser Team",
+      team: [
+        "Erfahrene IT-Spezialisten",
+        "Zertifizierte Cloud- und Security-Experten",
+        "Geleitet von europäischen Werten und Datenschutz"
+      ]
     }
   }
 };
