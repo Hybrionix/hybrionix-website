@@ -3,38 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title data-i18n="about.title">About Hybrionix</title>
-  <meta name="description" data-i18n="about.meta_description" content="Learn about Hybrionix: our mission, values, and commitment to secure, sovereign IT infrastructure for Europe." />
+  <title data-i18n="security.title">IT Security & Compliance – Hybrionix</title>
+  <meta name="description" data-i18n="security.meta_description" content="Hybrionix delivers advanced IT security: firewalls, VPN, zero-trust, compliance, monitoring, threat detection, and data protection for European organizations." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="favicon.png">
   <!-- Open Graph -->
-  <meta property="og:title" content="About Hybrionix" />
-  <meta property="og:description" content="Learn about Hybrionix: our mission, values, and commitment to secure, sovereign IT infrastructure for Europe." />
-  <meta property="og:url" content="https://www.hybrionix.com/about.html" />
+  <meta property="og:title" content="IT Security & Compliance – Hybrionix" />
+  <meta property="og:description" content="Hybrionix delivers advanced IT security: firewalls, VPN, zero-trust, compliance, monitoring, threat detection, and data protection for European organizations." />
+  <meta property="og:url" content="https://www.hybrionix.com/security.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="About Hybrionix" />
-  <meta name="twitter:description" content="Learn about Hybrionix: our mission, values, and commitment to secure, sovereign IT infrastructure for Europe." />
+  <meta name="twitter:title" content="IT Security & Compliance – Hybrionix" />
+  <meta name="twitter:description" content="Hybrionix delivers advanced IT security: firewalls, VPN, zero-trust, compliance, monitoring, threat detection, and data protection for European organizations." />
   <meta name="twitter:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
 </head>
 <body>
   <header id="main-header"></header>
   <main>
     <section class="hero">
-      <h2 data-i18n="about.title">About Hybrionix</h2>
-      <p data-i18n="about.p1">Hybrionix is a trusted IT partner specializing in secure, innovative hybrid infrastructure solutions for European organizations.</p>
+      <h2 data-i18n="security.title">IT Security & Compliance</h2>
+      <p data-i18n="security.intro">Protect your organization with Hybrionix: advanced security, compliance, and 24/7 monitoring for European IT environments.</p>
     </section>
     <section>
-      <h3 data-i18n="about.heading">About Hybrionix</h3>
-      <p data-i18n="about.p2">We combine deep knowledge of cloud, on-premises, and compliance to help organizations grow in a digital world.</p>
-      <h3 data-i18n="about.team_heading">Our Team</h3>
-      <ul>
-        <li data-i18n="about.team.0">Experienced IT specialists</li>
-        <li data-i18n="about.team.1">Certified cloud and security experts</li>
-        <li data-i18n="about.team.2">Driven by European values and privacy</li>
-      </ul>
+      <h3 data-i18n="security.topics_heading">Our Security Solutions</h3>
+      <ul id="security-topics-list"></ul>
+      <p data-i18n="security.value">We combine technology, expertise, and European compliance to keep your data and operations secure—now and in the future.</p>
+      <p><a href="contact.html" data-i18n="security.contact">Contact us for a security assessment →</a></p>
     </section>
   </main>
   <div id="main-footer"></div>
@@ -64,10 +60,17 @@
         nav.classList.toggle('open');
       }
     }
-
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);
+    }
+    function renderSecurityTopicsList(lang) {
+      const dict = window.translations[lang] || window.translations['en'];
+      const list = dict.security && dict.security.topics;
+      const ul = document.getElementById('security-topics-list');
+      if (ul && Array.isArray(list)) {
+        ul.innerHTML = list.map(item => `<li>${item}</li>`).join('');
+      }
     }
     function applyTranslations(lang) {
       const dict = window.translations[lang] || window.translations['en'];
@@ -77,6 +80,7 @@
         keys.forEach(k => value = value && value[k]);
         if (value) el.textContent = value;
       });
+      renderSecurityTopicsList(lang);
     }
     document.addEventListener('DOMContentLoaded', function() {
       const lang = localStorage.getItem('lang') || 'en';

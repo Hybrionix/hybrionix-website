@@ -9,7 +9,8 @@ window.translations = {
       contact: "Contact",
       contactform: "Contact Form",
       microsoft: "Microsoft 365 & Azure",
-      lifecycle: "Lifecycle Management"
+      lifecycle: "Lifecycle Management",
+      security: "IT Security"
     },
     index: {
       hero_heading: "Secure European Hybrid Environments",
@@ -94,6 +95,25 @@ window.translations = {
       ],
       callout_heading: "Ready to secure your infrastructure?",
       callout_link: "Contact us for a free consultation →"
+    },
+    security: {
+      title: "IT Security & Compliance",
+      meta_description: "Hybrionix delivers advanced IT security: firewalls, VPN, zero-trust, compliance, monitoring, threat detection, and data protection for European organizations.",
+      intro: "Protect your organization with Hybrionix: advanced security, compliance, and 24/7 monitoring for European IT environments.",
+      topics_heading: "Our Security Solutions",
+      topics: [
+        "Next-generation firewalls and intrusion prevention",
+        "VPN and secure remote access",
+        "Zero-trust network architecture",
+        "Continuous compliance (GDPR, NIS2, ISO 27001)",
+        "24/7 monitoring and threat detection",
+        "Data encryption and data loss prevention",
+        "Identity & access management",
+        "Vulnerability management and patching",
+        "Incident response and disaster recovery"
+      ],
+      value: "We combine technology, expertise, and European compliance to keep your data and operations secure—now and in the future.",
+      contact: "Contact us for a security assessment →"
     }
   },
   nl: {
@@ -106,7 +126,8 @@ window.translations = {
       contact: "Contact",
       contactform: "Contactformulier",
       microsoft: "Microsoft 365 & Azure",
-      lifecycle: "Lifecycle Management"
+      lifecycle: "Lifecycle Management",
+      security: "IT Security"
     },
     index: {
       hero_heading: "Veilige Europese Hybride Omgevingen",
@@ -138,6 +159,32 @@ window.translations = {
       ],
       certified: "Onze gecertificeerde professionals zorgen voor een soepele overgang en blijvende waarde uit uw Microsoft-investeringen.",
       contact: "Neem contact op om uw Microsoft 365- of Azure-project te bespreken →"
+    },
+    about: {
+      title: "Over Hybrionix",
+      heading: "Over Hybrionix",
+      p1: "Hybrionix is een betrouwbare IT-partner gespecialiseerd in veilige, innovatieve hybride infrastructuuroplossingen voor Europese organisaties.",
+      p2: "Wij combineren diepgaande kennis van cloud, on-premises en compliance om organisaties te helpen groeien in een digitale wereld.",
+      team_heading: "Ons team",
+      team: [
+        "Ervaren IT-specialisten",
+        "Gecertificeerde cloud- en security-experts",
+        "Gedreven door Europese waarden en privacy"
+      ]
+    },
+    lifecycle: {
+      title: "Lifecycle Management & Kostenbesparing",
+      meta_description: "Hybrionix helpt u met lifecycle management, kostenreductie en maximale waarde uit uw IT-investeringen.",
+      intro: "Optimaliseer uw IT-investeringen met Hybrionix lifecycle management en kostenbeheersing.",
+      approach_heading: "Onze aanpak",
+      approach: [
+        "Asset tracking en proactieve upgrades",
+        "Kostenoptimalisatie voor cloud en on-premises",
+        "Leveranciersbeheer en contractcontrole",
+        "End-of-life planning en veilige uitfasering"
+      ],
+      value: "Wij helpen u het maximale uit uw infrastructuur te halen, verspilling te verminderen en compliance te waarborgen gedurende de hele IT-lifecycle.",
+      contact: "Neem contact op voor meer informatie over lifecycle management →"
     },
     background: {
       title: "Onze Achtergrond",
@@ -177,6 +224,25 @@ window.translations = {
       ],
       callout_heading: "Klaar om uw infrastructuur te beveiligen?",
       callout_link: "Neem contact op voor een gratis consult →"
+    },
+    security: {
+      title: "IT Security & Compliance",
+      meta_description: "Hybrionix levert geavanceerde IT-beveiliging: firewalls, VPN, zero-trust, compliance, monitoring, dreigingsdetectie en databeveiliging voor Europese organisaties.",
+      intro: "Bescherm uw organisatie met Hybrionix: geavanceerde security, compliance en 24/7 monitoring voor Europese IT-omgevingen.",
+      topics_heading: "Onze security-oplossingen",
+      topics: [
+        "Next-generation firewalls en intrusion prevention",
+        "VPN en veilige remote toegang",
+        "Zero-trust netwerkarchitectuur",
+        "Continue compliance (AVG, NIS2, ISO 27001)",
+        "24/7 monitoring en dreigingsdetectie",
+        "Data-encryptie en data loss prevention",
+        "Identity & access management",
+        "Kwetsbaarhedenbeheer en patching",
+        "Incident response en disaster recovery"
+      ],
+      value: "Wij combineren technologie, expertise en Europese compliance om uw data en processen veilig te houden—nu en in de toekomst.",
+      contact: "Neem contact op voor een security assessment →"
     }
   },
   de: {
@@ -189,7 +255,8 @@ window.translations = {
       contact: "Kontakt",
       contactform: "Kontaktformular",
       microsoft: "Microsoft 365 & Azure",
-      lifecycle: "Lifecycle Management"
+      lifecycle: "Lifecycle Management",
+      security: "IT-Sicherheit"
     },
     index: {
       hero_heading: "Sichere europäische Hybridumgebungen",
@@ -274,6 +341,25 @@ window.translations = {
       ],
       callout_heading: "Bereit, Ihre Infrastruktur zu sichern?",
       callout_link: "Kontaktieren Sie uns für eine kostenlose Beratung →"
+    },
+    security: {
+      title: "IT-Sicherheit & Compliance",
+      meta_description: "Hybrionix bietet fortschrittliche IT-Sicherheit: Firewalls, VPN, Zero-Trust, Compliance, Monitoring, Bedrohungserkennung und Datenschutz für europäische Organisationen.",
+      intro: "Schützen Sie Ihre Organisation mit Hybrionix: fortschrittliche Sicherheit, Compliance und 24/7 Monitoring für europäische IT-Umgebungen.",
+      topics_heading: "Unsere Sicherheitslösungen",
+      topics: [
+        "Next-Generation Firewalls und Intrusion Prevention",
+        "VPN und sicherer Fernzugriff",
+        "Zero-Trust-Netzwerkarchitektur",
+        "Kontinuierliche Compliance (DSGVO, NIS2, ISO 27001)",
+        "24/7 Monitoring und Bedrohungserkennung",
+        "Datenverschlüsselung und Data Loss Prevention",
+        "Identity & Access Management",
+        "Schwachstellenmanagement und Patching",
+        "Incident Response und Disaster Recovery"
+      ],
+      value: "Wir verbinden Technologie, Fachwissen und europäische Compliance, um Ihre Daten und Prozesse jetzt und in Zukunft zu schützen.",
+      contact: "Kontaktieren Sie uns für ein Security Assessment →"
     }
   }
 };
