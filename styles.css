@@ -135,6 +135,8 @@ nav a.active {
   border-bottom: 1px solid #e0e0e0;
   background: none;
   border-radius: 0;
+  font-size: 0.98rem;
+  white-space: nowrap;
 }
 .nav-dropdown .dropdown-content a:last-child {
   border-bottom: none;
@@ -186,6 +188,17 @@ nav a.active {
   nav#main-nav.open {
     display: flex;
   }
+  nav#main-nav.open .dropdown-content {
+    display: flex !important;
+    position: static;
+    background: none;
+    box-shadow: none;
+    min-width: 0;
+    width: 100%;
+    padding-left: 18px;
+    border-left: 3px solid #00b4d8;
+    margin-bottom: 4px;
+  }
   nav#main-nav a,
   .nav-dropdown .dropdown-content a {
     margin: 0;
@@ -205,6 +218,18 @@ nav a.active {
     min-width: 0;
     border-radius: 0;
     width: 100%;
+  }
+  .nav-dropdown .dropdown-content a {
+    background: #f0f7f7;
+    color: #0077b6;
+    font-size: 1rem;
+    border-radius: 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 0;
+    padding-left: 24px;
+  }
+  .nav-dropdown > a {
+    border-bottom: none;
   }
   .lang-switch {
     margin-left: 0;
