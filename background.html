@@ -23,28 +23,10 @@
   <header id="main-header"></header>
   <main>
     <section class="hero">
-      <h2 data-i18n="background.heading">Our Background</h2>
+      <h2 data-i18n="background.title">Our Background</h2>
+      <p data-i18n="background.intro">Discover our expertise in secure, innovative hybrid infrastructure for European organizations.</p>
     </section>
-    <section>
-      <p data-i18n="background.p1">
-        Hybrionix is a leading provider of secure, innovative hybrid infrastructure solutions tailored for European enterprises and organizations. Our mission is to enable businesses to thrive in a digital-first world by delivering seamlessly integrated environments that combine the flexibility of public and private cloud with the highest standards of security and compliance.
-      </p>
-      <p data-i18n="background.p2">
-        Founded on the principles of trust, transparency, and technological excellence, Hybrionix helps organizations navigate the complexities of digital transformation. We specialize in designing, implementing, and managing hybrid IT environments that empower our clients to leverage the best of both cloud and on-premises solutions—without compromising on data sovereignty or regulatory requirements.
-      </p>
-      <h3 data-i18n="background.services_heading">Our services include:</h3>
-      <ul class="service-list">
-        <li data-i18n="background.services.0">Secure cloud architecture and migration</li>
-        <li data-i18n="background.services.1">Multi-cloud and on-premises integration</li>
-        <li data-i18n="background.services.2">European data residency and compliance (GDPR, NIS2, etc.)</li>
-        <li data-i18n="background.services.3">Managed security and threat monitoring</li>
-        <li data-i18n="background.services.4">Business continuity and disaster recovery</li>
-      </ul>
-      <p data-i18n="background.p3">
-        With a commitment to European values and security standards, Hybrionix is your trusted partner for building resilient, future-proof digital infrastructures. We work with organizations across sectors—including finance, healthcare, government, and manufacturing—to create tailored solutions that foster innovation, agility, and peace of mind.
-      </p>
-      <p><strong data-i18n="background.p4">Hybrionix: Where Security Meets Innovation, at the Heart of Europe.</strong></p>
-    </section>
+    <!-- Add your background content here -->
   </main>
   <div id="main-footer"></div>
   <script src="translations.js"></script>
@@ -67,6 +49,14 @@
         document.getElementById('main-footer').innerHTML = data;
       });
 
+    // Hamburger menu support
+    function toggleNav() {
+      var nav = document.getElementById('main-nav');
+      if (nav) {
+        nav.classList.toggle('open');
+      }
+    }
+
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);
@@ -77,7 +67,7 @@
         const keys = el.getAttribute('data-i18n').split('.');
         let value = dict;
         keys.forEach(k => value = value && value[k]);
-        if (value) el.innerHTML = value;
+        if (value) el.textContent = value;
       });
     }
     document.addEventListener('DOMContentLoaded', function() {

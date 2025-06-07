@@ -40,7 +40,6 @@
         <button type="submit" data-i18n="contact.send">Send Message</button>
       </form>
     </section>
-    <!-- Removed direct email section to avoid spam exposure -->
   </main>
   <div id="main-footer"></div>
   <script src="translations.js"></script>
@@ -62,6 +61,14 @@
       .then(data => {
         document.getElementById('main-footer').innerHTML = data;
       });
+
+    // Hamburger menu support
+    function toggleNav() {
+      var nav = document.getElementById('main-nav');
+      if (nav) {
+        nav.classList.toggle('open');
+      }
+    }
 
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);

@@ -62,6 +62,14 @@
         document.getElementById('main-footer').innerHTML = data;
       });
 
+    // Hamburger menu support
+    function toggleNav() {
+      var nav = document.getElementById('main-nav');
+      if (nav) {
+        nav.classList.toggle('open');
+      }
+    }
+
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);

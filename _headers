@@ -3,3 +3,7 @@
   Pragma: no-cache
   Expires: 0
   X-Content-Type-Options: nosniff
+
+/pictures/hybrionx_background.png
+  Cache-Control: public, max-age=604800, immutable
+*/

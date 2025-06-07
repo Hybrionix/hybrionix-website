@@ -41,7 +41,10 @@
 </div>
 <script>
   function toggleNav() {
-    document.getElementById('main-nav').classList.toggle('open');
+    var nav = document.getElementById('main-nav');
+    if (nav) {
+      nav.classList.toggle('open');
+    }
   }
 
   fetch('footer.html')
