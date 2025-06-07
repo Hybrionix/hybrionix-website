@@ -22,12 +22,21 @@
   </button>
   <nav id="main-nav">
     <a href="index.html" id="nav-home" data-i18n="nav.home">Home</a>
-    <a href="services.html" id="nav-services" data-i18n="nav.services">Services</a>
-    <a href="microsoft.html" id="nav-microsoft" data-i18n="nav.microsoft">Microsoft 365 & Azure</a>
-    <a href="lifecycle.html" id="nav-lifecycle" data-i18n="nav.lifecycle">Lifecycle</a>
-    <a href="about.html" id="nav-about" data-i18n="nav.about">About</a>
-    <a href="background.html" id="nav-background" data-i18n="nav.background">Background</a>
+    <div class="nav-dropdown">
+      <a href="services.html" id="nav-services" data-i18n="nav.services">Services</a>
+      <div class="dropdown-content">
+        <a href="microsoft.html" id="nav-microsoft" data-i18n="nav.microsoft">Microsoft 365 & Azure</a>
+        <a href="lifecycle.html" id="nav-lifecycle" data-i18n="nav.lifecycle">Lifecycle</a>
+      </div>
+    </div>
     <a href="contact.html" id="nav-contact" data-i18n="nav.contact">Contact</a>
+    <div class="nav-dropdown">
+      <a href="#" tabindex="-1" style="pointer-events:none;opacity:0;height:0;width:0;padding:0;margin:0;border:0;"></a>
+      <div class="dropdown-content">
+        <a href="about.html" id="nav-about" data-i18n="nav.about">About</a>
+        <a href="background.html" id="nav-background" data-i18n="nav.background">Background</a>
+      </div>
+    </div>
   </nav>
   <div class="lang-switch">
     <a href="#" title="English" onclick="setLanguage('en');return false;">
