@@ -4,19 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hybrionix – Secure European Hybrid Environments</title>
-  <meta name="description" content="Hybrionix provides secure, sovereign IT infrastructure solutions for European organizations. Hybrid cloud, compliance, and expert support." />
+  <meta name="description" content="Hybrionix delivers secure, sovereign IT infrastructure from the heart of Europe. Private & public cloud, Microsoft 365, Azure, and more." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="favicon.ico">
   <!-- Open Graph -->
   <meta property="og:title" content="Hybrionix – Secure European Hybrid Environments" />
-  <meta property="og:description" content="Hybrionix provides secure, sovereign IT infrastructure solutions for European organizations. Hybrid cloud, compliance, and expert support." />
+  <meta property="og:description" content="Hybrionix delivers secure, sovereign IT infrastructure from the heart of Europe. Private & public cloud, Microsoft 365, Azure, and more." />
   <meta property="og:url" content="https://www.hybrionix.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hybrionix – Secure European Hybrid Environments" />
-  <meta name="twitter:description" content="Hybrionix provides secure, sovereign IT infrastructure solutions for European organizations. Hybrid cloud, compliance, and expert support." />
+  <meta name="twitter:description" content="Hybrionix delivers secure, sovereign IT infrastructure from the heart of Europe. Private & public cloud, Microsoft 365, Azure, and more." />
   <meta name="twitter:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -40,20 +40,21 @@
     <section class="hero">
       <h2 data-i18n="index.hero_heading">Secure European Hybrid Environments</h2>
       <p data-i18n="index.hero_p">
-        Hybrionix empowers organizations with robust, sovereign IT infrastructure solutions, fully hosted and managed within Europe. We combine cloud flexibility with on-premises control for maximum security and compliance.
+        Hybrionix empowers organizations with robust, sovereign IT infrastructure solutions, fully hosted and managed within Europe. Our datacenters are located near Amsterdam, the digital heart of Europe, ensuring compliance, privacy, and low-latency connectivity.
       </p>
     </section>
     <section class="callout">
-      <h3 data-i18n="index.callout_heading">Need secure infrastructure?</h3>
-      <p><a href="services.html" data-i18n="index.callout_link">Explore our services →</a></p>
+      <h3 data-i18n="index.callout_heading">Your Trusted IT Partner in Europe</h3>
+      <p>We specialize in private and public cloud, Microsoft 365, Azure, and secure infrastructure deployments. <a href="services.html" data-i18n="index.callout_link">Explore our services →</a></p>
     </section>
     <section>
       <h3 data-i18n="index.why_heading">Why Choose Hybrionix?</h3>
       <ul class="service-list">
-        <li data-i18n="index.why.0">Hybrid cloud and on-premises solutions for critical workloads</li>
-        <li data-i18n="index.why.1">Zero-trust security architecture and 24/7 monitoring</li>
-        <li data-i18n="index.why.2">Expert support from certified European engineers</li>
-        <li data-i18n="index.why.3">Custom infrastructure design for regulated industries</li>
+        <li data-i18n="index.why.0">State-of-the-art datacenters in the Netherlands, near Amsterdam</li>
+        <li data-i18n="index.why.1">Hybrid cloud and on-premises solutions for critical workloads</li>
+        <li data-i18n="index.why.2">Microsoft 365 and Azure integration by certified experts</li>
+        <li data-i18n="index.why.3">Lifecycle Management and cost optimization</li>
+        <li data-i18n="index.why.4">24/7 support and proactive monitoring</li>
       </ul>
     </section>
   </main>
@@ -78,14 +79,12 @@
         document.getElementById('main-footer').innerHTML = data;
       });
 
-    // Hamburger menu support
     function toggleNav() {
       var nav = document.getElementById('main-nav');
       if (nav) {
         nav.classList.toggle('open');
       }
     }
-
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);

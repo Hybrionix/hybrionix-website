@@ -3,42 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Our Services – Hybrionix</title>
-  <meta name="description" content="Discover Hybrionix services: secure, scalable, and compliant IT infrastructure for European organizations." />
+  <title>Lifecycle Management – Hybrionix</title>
+  <meta name="description" content="Hybrionix helps you manage IT lifecycle, reduce costs, and maximize value from your infrastructure investments." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="favicon.png">
   <!-- Open Graph -->
-  <meta property="og:title" content="Our Services – Hybrionix" />
-  <meta property="og:description" content="Discover Hybrionix services: secure, scalable, and compliant IT infrastructure for European organizations." />
-  <meta property="og:url" content="https://www.hybrionix.com/services.html" />
+  <meta property="og:title" content="Lifecycle Management – Hybrionix" />
+  <meta property="og:description" content="Hybrionix helps you manage IT lifecycle, reduce costs, and maximize value from your infrastructure investments." />
+  <meta property="og:url" content="https://www.hybrionix.com/lifecycle.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Our Services – Hybrionix" />
-  <meta name="twitter:description" content="Discover Hybrionix services: secure, scalable, and compliant IT infrastructure for European organizations." />
+  <meta name="twitter:title" content="Lifecycle Management – Hybrionix" />
+  <meta name="twitter:description" content="Hybrionix helps you manage IT lifecycle, reduce costs, and maximize value from your infrastructure investments." />
   <meta name="twitter:image" content="https://www.hybrionix.com/pictures/hybrionx_background.png" />
 </head>
 <body>
   <header id="main-header"></header>
   <main>
     <section class="hero">
-      <h2 data-i18n="services.title">Our Services</h2>
-      <p data-i18n="services.intro">Secure, scalable, and compliant IT infrastructure for European organizations.</p>
+      <h2>Lifecycle Management & Cost Reduction</h2>
+      <p>Optimize your IT investments with Hybrionix lifecycle management and cost control services.</p>
     </section>
     <section>
-      <ul class="service-list">
-        <li data-i18n="services.list.0"><strong>European Datacenters:</strong> All data is hosted in secure, ISO 27001-certified facilities near Amsterdam.</li>
-        <li data-i18n="services.list.1"><strong>Private & Public Cloud:</strong> Flexible hybrid solutions tailored to your compliance and performance needs.</li>
-        <li data-i18n="services.list.2"><strong>Microsoft 365 & Azure:</strong> Seamless integration, migration, and management by certified professionals.</li>
-        <li data-i18n="services.list.3"><strong>Infrastructure Deployment:</strong> From planning to rollout, we handle your IT projects end-to-end.</li>
-        <li data-i18n="services.list.4"><strong>Lifecycle Management:</strong> Proactive support, upgrades, and cost optimization throughout your IT lifecycle.</li>
-        <li data-i18n="services.list.5"><strong>24/7 Support:</strong> European experts ready to assist you at any time.</li>
+      <h3>Our Approach</h3>
+      <ul>
+        <li>Asset tracking and proactive upgrades</li>
+        <li>Cloud and on-premises cost optimization</li>
+        <li>Vendor management and contract review</li>
+        <li>End-of-life planning and secure decommissioning</li>
       </ul>
-    </section>
-    <section class="callout">
-      <h3 data-i18n="services.callout_heading">Ready to secure your infrastructure?</h3>
-      <p><a href="contact.html" data-i18n="services.callout_link">Contact us for a free consultation →</a></p>
+      <p>We help you get the most value from your infrastructure, reduce waste, and ensure compliance throughout the IT lifecycle.</p>
+      <p><a href="contact.html">Contact us to learn more about lifecycle management →</a></p>
     </section>
   </main>
   <div id="main-footer"></div>
@@ -62,14 +59,12 @@
         document.getElementById('main-footer').innerHTML = data;
       });
 
-    // Hamburger menu support
     function toggleNav() {
       var nav = document.getElementById('main-nav');
       if (nav) {
         nav.classList.toggle('open');
       }
     }
-
     function setLanguage(lang) {
       localStorage.setItem('lang', lang);
       applyTranslations(lang);
@@ -80,7 +75,7 @@
         const keys = el.getAttribute('data-i18n').split('.');
         let value = dict;
         keys.forEach(k => value = value && value[k]);
-        if (value) el.innerHTML = value;
+        if (value) el.textContent = value;
       });
     }
     document.addEventListener('DOMContentLoaded', function() {

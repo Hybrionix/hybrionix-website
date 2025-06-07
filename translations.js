@@ -5,7 +5,33 @@ window.translations = {
       services: "Services",
       about: "About",
       background: "Background",
-      contact: "Contact"
+      contact: "Contact",
+      microsoft: "Microsoft 365 & Azure",
+      lifecycle: "Lifecycle"
+    },
+    microsoft: {
+      title: "Microsoft 365 & Azure",
+      intro: "Unlock the full potential of Microsoft 365 and Azure with Hybrionix.",
+      expertise_heading: "Our Expertise",
+      expertise: [
+        "Migration to Microsoft 365 and Azure",
+        "Hybrid cloud integration with on-premises systems",
+        "Security, compliance, and identity management",
+        "Ongoing support and optimization"
+      ],
+      contact: "Contact us to discuss your Microsoft 365 or Azure project →"
+    },
+    lifecycle: {
+      title: "Lifecycle Management & Cost Reduction",
+      intro: "Optimize your IT investments with Hybrionix lifecycle management and cost control services.",
+      approach_heading: "Our Approach",
+      approach: [
+        "Asset tracking and proactive upgrades",
+        "Cloud and on-premises cost optimization",
+        "Vendor management and contract review",
+        "End-of-life planning and secure decommissioning"
+      ],
+      contact: "Contact us to learn more about lifecycle management →"
     },
     background: {
       title: "Our Background",
