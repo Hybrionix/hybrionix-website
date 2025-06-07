@@ -468,3 +468,11 @@ footer {
     font-size: 1.5rem;
   }
 }
+
+.experience {
+  background: #f7fafc;
+  border-left: 4px solid #00b4d8;
+  margin: 2rem 0 1.5rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+}
