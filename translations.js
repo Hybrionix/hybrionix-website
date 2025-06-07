@@ -20,14 +20,14 @@ window.translations = {
       callout_link: "Explore our services →",
       why_heading: "Why Choose Hybrionix?",
       why: [
-        "State-of-the-art datacenters in the Netherlands, near Amsterdam",
-        "Hybrid cloud and on-premises solutions for critical workloads",
-        "Microsoft 365 and Azure integration by certified experts",
-        "Lifecycle Management and cost optimization",
-        "24/7 support and proactive monitoring"
+        "Personal, dedicated and custom IT services",
+        "Direct contact and short communication lines",
+        "Over 20 years of real-world IT experience",
+        "From on-premises to cloud, security, migration & consulting",
+        "We are committed, flexible and truly care about your success"
       ],
       experience_heading: "Our Experience",
-      experience_text: "Hybrionix has delivered successful projects for government organizations, insurance and financial companies, housing corporations, associations, and SMEs. We understand the requirements and challenges of different sectors and always deliver tailored solutions."
+      experience_text: "Hybrionix is a small but highly experienced company. With over two decades in IT and more than 100 successful projects, we bring hands-on expertise in architecture, security, consulting, migration and workplace solutions. We have delivered tailored solutions for government organizations, insurance and financial companies, housing corporations, associations, and SMEs. Our commitment and dedication ensure you always get the best, most personal service."
     },
     microsoft: {
       title: "Microsoft 365 & Azure",
@@ -137,14 +137,14 @@ window.translations = {
       callout_link: "Bekijk onze diensten →",
       why_heading: "Waarom kiezen voor Hybrionix?",
       why: [
-        "State-of-the-art datacenters in Nederland, nabij Amsterdam",
-        "Hybride cloud- en on-premises oplossingen voor kritieke workloads",
-        "Microsoft 365 en Azure integratie door gecertificeerde experts",
-        "Lifecycle Management en kostenoptimalisatie",
-        "24/7 support en proactieve monitoring"
+        "Persoonlijke, toegewijde en maatwerk IT-diensten",
+        "Direct contact en korte lijnen",
+        "Meer dan 20 jaar praktijkervaring in IT",
+        "Van on-premises tot cloud, security, migratie & advies",
+        "Wij zijn betrokken, flexibel en geven echt om uw succes"
       ],
       experience_heading: "Onze ervaring",
-      experience_text: "Hybrionix heeft succesvolle projecten uitgevoerd voor overheidsorganisaties, assurantie- en verzekeringsbedrijven, woningcorporaties, verenigingen en het MKB. Wij begrijpen de eisen en uitdagingen van verschillende sectoren en leveren altijd maatwerk."
+      experience_text: "Hybrionix is een klein maar zeer ervaren bedrijf. Met meer dan twee decennia in IT en ruim 100 succesvolle projecten brengen wij praktijkkennis in architectuur, security, consultancy, migratie en werkplekoplossingen. Wij hebben maatwerk geleverd voor overheidsorganisaties, assurantie- en verzekeringsbedrijven, woningcorporaties, verenigingen en het MKB. Door onze betrokkenheid en toewijding krijgt u altijd de beste en meest persoonlijke service."
     },
     microsoft: {
       title: "Microsoft 365 & Azure",
@@ -266,14 +266,14 @@ window.translations = {
       callout_link: "Entdecken Sie unsere Dienstleistungen →",
       why_heading: "Warum Hybrionix?",
       why: [
-        "State-of-the-art Rechenzentren in den Niederlanden, nahe Amsterdam",
-        "Hybride Cloud- und On-Premises-Lösungen für kritische Workloads",
-        "Microsoft 365 und Azure Integration durch zertifizierte Experten",
-        "Lifecycle Management und Kostenoptimierung",
-        "24/7 Support und proaktive Überwachung"
+        "Persönliche, engagierte und maßgeschneiderte IT-Dienstleistungen",
+        "Direkter Kontakt und kurze Kommunikationswege",
+        "Über 20 Jahre praktische IT-Erfahrung",
+        "Von On-Premises bis Cloud, Security, Migration & Beratung",
+        "Wir sind engagiert, flexibel und kümmern uns wirklich um Ihren Erfolg"
       ],
       experience_heading: "Unsere Erfahrung",
-      experience_text: "Hybrionix hat erfolgreiche Projekte für Behörden, Versicherungsunternehmen, Wohnungsbaugesellschaften, Vereine und den Mittelstand realisiert. Wir kennen die Anforderungen und Herausforderungen verschiedener Branchen und liefern stets maßgeschneiderte Lösungen."
+      experience_text: "Hybrionix ist ein kleines, aber sehr erfahrenes Unternehmen. Mit über zwei Jahrzehnten IT-Erfahrung und mehr als 100 erfolgreichen Projekten bieten wir Praxiswissen in Architektur, Security, Beratung, Migration und Arbeitsplatzlösungen. Wir haben maßgeschneiderte Lösungen für Behörden, Versicherungen, Wohnungsbaugesellschaften, Vereine und den Mittelstand geliefert. Unser Engagement und unsere Hingabe sorgen dafür, dass Sie immer den besten und persönlichsten Service erhalten."
     },
     microsoft: {
       title: "Microsoft 365 & Azure",
