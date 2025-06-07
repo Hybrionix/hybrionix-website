@@ -13,6 +13,7 @@ window.translations = {
     },
     microsoft: {
       title: "Microsoft 365 & Azure",
+      meta_description: "Hybrionix specializes in Microsoft 365 and Azure: migration, integration, security, and support from certified European experts.",
       intro: "Unlock the full potential of Microsoft 365 and Azure with Hybrionix.",
       expertise_heading: "Our Expertise",
       expertise: [
@@ -21,10 +22,12 @@ window.translations = {
         "Security, compliance, and identity management",
         "Ongoing support and optimization"
       ],
+      certified: "Our certified professionals ensure a smooth transition and ongoing value from your Microsoft investments.",
       contact: "Contact us to discuss your Microsoft 365 or Azure project →"
     },
     lifecycle: {
       title: "Lifecycle Management & Cost Reduction",
+      meta_description: "Hybrionix helps you manage IT lifecycle, reduce costs, and maximize value from your infrastructure investments.",
       intro: "Optimize your IT investments with Hybrionix lifecycle management and cost control services.",
       approach_heading: "Our Approach",
       approach: [
@@ -33,6 +36,7 @@ window.translations = {
         "Vendor management and contract review",
         "End-of-life planning and secure decommissioning"
       ],
+      value: "We help you get the most value from your infrastructure, reduce waste, and ensure compliance throughout the IT lifecycle.",
       contact: "Contact us to learn more about lifecycle management →"
     },
     background: {
@@ -100,6 +104,20 @@ window.translations = {
       microsoft: "Microsoft 365 & Azure",
       lifecycle: "Lifecycle Management"
     },
+    microsoft: {
+      title: "Microsoft 365 & Azure",
+      meta_description: "Hybrionix is gespecialiseerd in Microsoft 365 en Azure: migratie, integratie, beveiliging en ondersteuning door gecertificeerde Europese experts.",
+      intro: "Ontgrendel het volledige potentieel van Microsoft 365 en Azure met Hybrionix.",
+      expertise_heading: "Onze expertise",
+      expertise: [
+        "Migratie naar Microsoft 365 en Azure",
+        "Hybride cloudintegratie met on-premises systemen",
+        "Beveiliging, compliance en identiteitsbeheer",
+        "Doorlopende ondersteuning en optimalisatie"
+      ],
+      certified: "Onze gecertificeerde professionals zorgen voor een soepele overgang en blijvende waarde uit uw Microsoft-investeringen.",
+      contact: "Neem contact op om uw Microsoft 365- of Azure-project te bespreken →"
+    },
     background: {
       title: "Onze Achtergrond",
       heading: "Onze Achtergrond",
@@ -164,6 +182,34 @@ window.translations = {
       contactform: "Kontaktformular",
       microsoft: "Microsoft 365 & Azure",
       lifecycle: "Lifecycle Management"
+    },
+    microsoft: {
+      title: "Microsoft 365 & Azure",
+      meta_description: "Hybrionix ist spezialisiert auf Microsoft 365 und Azure: Migration, Integration, Sicherheit und Support durch zertifizierte europäische Experten.",
+      intro: "Nutzen Sie das volle Potenzial von Microsoft 365 und Azure mit Hybrionix.",
+      expertise_heading: "Unsere Expertise",
+      expertise: [
+        "Migration zu Microsoft 365 und Azure",
+        "Hybride Cloud-Integration mit On-Premises-Systemen",
+        "Sicherheit, Compliance und Identitätsmanagement",
+        "Laufende Unterstützung und Optimierung"
+      ],
+      certified: "Unsere zertifizierten Fachleute sorgen für einen reibungslosen Übergang und nachhaltigen Mehrwert aus Ihren Microsoft-Investitionen.",
+      contact: "Kontaktieren Sie uns, um Ihr Microsoft 365- oder Azure-Projekt zu besprechen →"
+    },
+    lifecycle: {
+      title: "Lifecycle Management & Kostenreduktion",
+      meta_description: "Hybrionix unterstützt Sie beim IT-Lifecycle-Management, bei der Kostenreduzierung und beim Maximieren des Nutzens Ihrer Infrastruktur.",
+      intro: "Optimieren Sie Ihre IT-Investitionen mit Lifecycle Management und Kostenkontrolle von Hybrionix.",
+      approach_heading: "Unser Ansatz",
+      approach: [
+        "Asset-Tracking und proaktive Upgrades",
+        "Kostenoptimierung für Cloud und On-Premises",
+        "Lieferantenmanagement und Vertragsprüfung",
+        "End-of-Life-Planung und sichere Außerbetriebnahme"
+      ],
+      value: "Wir helfen Ihnen, den größtmöglichen Nutzen aus Ihrer Infrastruktur zu ziehen, Verschwendung zu reduzieren und Compliance während des gesamten IT-Lifecycles sicherzustellen.",
+      contact: "Kontaktieren Sie uns, um mehr über Lifecycle Management zu erfahren →"
     },
     background: {
       title: "Unser Hintergrund",
