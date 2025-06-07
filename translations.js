@@ -14,9 +14,9 @@ window.translations = {
     },
     index: {
       hero_heading: "Secure European Hybrid Environments",
-      hero_p: "Hybrionix empowers organizations with robust, sovereign IT infrastructure solutions, fully hosted and managed within Europe. Our datacenters are located near Amsterdam, the digital heart of Europe, ensuring compliance, privacy, and low-latency connectivity.",
+      hero_p: "Hybrionix empowers organizations with robust, sovereign IT infrastructure solutions, fully managed and hosted within Europe. We work with trusted local datacenter providers and leading public cloud platforms such as Microsoft Azure, ensuring compliance, privacy, and reliable connectivity for your business.",
       callout_heading: "Your Trusted IT Partner in Europe",
-      callout_text: "We specialize in private and public cloud, Microsoft 365, Azure, and secure infrastructure deployments.",
+      callout_text: "We specialize in private and public cloud, Microsoft 365, Azure, and secure infrastructure deployments using the best local and global providers.",
       callout_link: "Explore our services →",
       why_heading: "Why Choose Hybrionix?",
       why: [
@@ -131,9 +131,9 @@ window.translations = {
     },
     index: {
       hero_heading: "Veilige Europese Hybride Omgevingen",
-      hero_p: "Hybrionix biedt organisaties robuuste, soevereine IT-infrastructuuroplossingen, volledig gehost en beheerd binnen Europa. Onze datacenters bevinden zich nabij Amsterdam, het digitale hart van Europa, en garanderen compliance, privacy en lage latency.",
+      hero_p: "Hybrionix biedt organisaties robuuste, soevereine IT-infrastructuuroplossingen, volledig beheerd en gehost binnen Europa. Wij werken samen met betrouwbare lokale datacenterleveranciers en toonaangevende public cloud-platforms zoals Microsoft Azure, zodat uw organisatie altijd voldoet aan compliance, privacy en betrouwbare connectiviteit.",
       callout_heading: "Uw vertrouwde IT-partner in Europa",
-      callout_text: "Wij zijn gespecialiseerd in private en public cloud, Microsoft 365, Azure en veilige infrastructuur.",
+      callout_text: "Wij zijn gespecialiseerd in private en public cloud, Microsoft 365, Azure en veilige infrastructuur, met gebruik van de beste lokale en wereldwijde aanbieders.",
       callout_link: "Bekijk onze diensten →",
       why_heading: "Waarom kiezen voor Hybrionix?",
       why: [
@@ -260,9 +260,9 @@ window.translations = {
     },
     index: {
       hero_heading: "Sichere europäische Hybridumgebungen",
-      hero_p: "Hybrionix bietet Organisationen robuste, souveräne IT-Infrastrukturlösungen, vollständig gehostet und verwaltet in Europa. Unsere Rechenzentren befinden sich in der Nähe von Amsterdam, dem digitalen Herzen Europas, und gewährleisten Compliance, Datenschutz und geringe Latenz.",
+      hero_p: "Hybrionix bietet Organisationen robuste, souveräne IT-Infrastrukturlösungen, vollständig gemanagt und gehostet in Europa. Wir arbeiten mit vertrauenswürdigen lokalen Rechenzentrumsanbietern und führenden Public-Cloud-Plattformen wie Microsoft Azure, um Compliance, Datenschutz und zuverlässige Konnektivität für Ihr Unternehmen zu gewährleisten.",
       callout_heading: "Ihr vertrauenswürdiger IT-Partner in Europa",
-      callout_text: "Wir sind spezialisiert auf Private und Public Cloud, Microsoft 365, Azure und sichere Infrastrukturen.",
+      callout_text: "Wir sind spezialisiert auf Private und Public Cloud, Microsoft 365, Azure und sichere Infrastrukturen – mit den besten lokalen und globalen Anbietern.",
       callout_link: "Entdecken Sie unsere Dienstleistungen →",
       why_heading: "Warum Hybrionix?",
       why: [
