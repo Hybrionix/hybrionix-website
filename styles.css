@@ -117,6 +117,11 @@ nav a.active {
 .nav-dropdown .dropdown-content a:last-child {
   border-bottom: none;
 }
+.nav-dropdown .dropdown-content a:hover,
+.nav-dropdown .dropdown-content a:focus {
+  background: #0077b6;
+  color: #fff;
+}
 @media (max-width: 800px) {
   .nav-dropdown .dropdown-content {
     position: static;
