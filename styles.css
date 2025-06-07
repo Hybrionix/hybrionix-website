@@ -79,6 +79,68 @@ nav a.active {
   transform: none;
 }
 
+/* Hamburger button */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  z-index: 1100;
+}
+.nav-toggle span {
+  display: block;
+  height: 4px;
+  width: 28px;
+  background: #00b4d8;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Responsive nav */
+@media (max-width: 800px) {
+  .nav-container {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .nav-toggle {
+    display: flex;
+  }
+  nav#main-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    z-index: 1001;
+  }
+  nav#main-nav.open {
+    display: flex;
+  }
+  nav#main-nav a {
+    margin: 0;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    background: none;
+    color: #0077b6;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 1.1rem;
+  }
+  .lang-switch {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}
+
 /* Main content */
 main {
   max-width: 960px;
