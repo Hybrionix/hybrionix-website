@@ -114,16 +114,24 @@ window.translations = {
     },
     about: {
       title: "About Hybrionix",
-      meta_description: "Learn about Hybrionix: our mission, values, and commitment to secure, sovereign IT infrastructure for Europe.",
+      meta_description: "Learn about Hybrionix: our mission, values, background, and commitment to secure, sovereign IT infrastructure for Europe.",
       p1: "Hybrionix is a small, independent IT company founded on a passion for secure, personal, and custom IT solutions. We help organizations in Europe with hybrid infrastructure, cloud, and security—always with a personal touch.",
-      heading: "Our Story",
+      story_heading: "Our Story",
       p2: "With over 20 years of hands-on IT experience and more than 100 successful projects, we know what works in practice. We have worked for government, finance, housing, associations, and SMEs. Our founder is both architect and workplace specialist, with deep knowledge of on-premises and cloud environments.",
+      background_heading: "Background & Expertise",
+      background_p: "Hybrionix was founded to bring personal, secure, and flexible IT to organizations in Europe. We combine practical experience with a strong focus on privacy, compliance, and custom solutions. Our expertise covers architecture, security, migration, consulting, and workplace solutions—always tailored to the client.",
       values_heading: "Our Values",
       values: [
         "Personal and direct contact",
         "Custom solutions, no one-size-fits-all",
         "Commitment, flexibility, and real dedication",
         "European privacy and compliance"
+      ],
+      europe_heading: "European Approach",
+      europe: [
+        "Compliance with European regulations (GDPR, NIS2, etc.)",
+        "Data sovereignty and privacy first",
+        "Collaboration with trusted local and global partners"
       ],
       team_heading: "Our Team",
       team: [
@@ -179,16 +187,24 @@ window.translations = {
     },
     about: {
       title: "Over Hybrionix",
-      meta_description: "Lees meer over Hybrionix: onze missie, waarden en toewijding aan veilige, soevereine IT-infrastructuur voor Europa.",
+      meta_description: "Lees meer over Hybrionix: onze missie, waarden, achtergrond en toewijding aan veilige, soevereine IT-infrastructuur voor Europa.",
       p1: "Hybrionix is een klein, onafhankelijk IT-bedrijf ontstaan uit passie voor veilige, persoonlijke en maatwerk IT-oplossingen. Wij helpen organisaties in Europa met hybride infrastructuur, cloud en security—altijd met een persoonlijke aanpak.",
-      heading: "Ons verhaal",
+      story_heading: "Ons verhaal",
       p2: "Met meer dan 20 jaar praktijkervaring en ruim 100 succesvolle projecten weten wij wat werkt. We hebben gewerkt voor overheid, financiën, woningcorporaties, verenigingen en het MKB. De oprichter is zowel architect als werkplekspecialist, met diepgaande kennis van on-premises en cloud.",
+      background_heading: "Achtergrond & Expertise",
+      background_p: "Hybrionix is opgericht om persoonlijke, veilige en flexibele IT naar organisaties in Europa te brengen. We combineren praktijkervaring met een sterke focus op privacy, compliance en maatwerk. Onze expertise omvat architectuur, security, migratie, consultancy en werkplekoplossingen—altijd op maat.",
       values_heading: "Onze waarden",
       values: [
         "Persoonlijk en direct contact",
         "Maatwerk oplossingen, geen standaardwerk",
         "Betrokkenheid, flexibiliteit en echte toewijding",
         "Europese privacy en compliance"
+      ],
+      europe_heading: "Europese aanpak",
+      europe: [
+        "Voldoen aan Europese regelgeving (AVG, NIS2, enz.)",
+        "Dataprivacy en soevereiniteit voorop",
+        "Samenwerking met vertrouwde lokale en wereldwijde partners"
       ],
       team_heading: "Ons team",
       team: [
@@ -268,16 +284,24 @@ window.translations = {
     },
     about: {
       title: "Over Hybrionix",
-      meta_description: "Erfahren Sie mehr über Hybrionix: unsere Mission, Werte und unser Engagement für sichere, souveräne IT-Infrastruktur in Europa.",
+      meta_description: "Erfahren Sie mehr über Hybrionix: unsere Mission, Werte, Hintergrund und unser Engagement für sichere, souveräne IT-Infrastruktur in Europa.",
       p1: "Hybrionix ist ein kleines, unabhängiges IT-Unternehmen, gegründet aus Leidenschaft für sichere, persönliche und maßgeschneiderte IT-Lösungen. Wir unterstützen Organisationen in Europa mit hybrider Infrastruktur, Cloud und Security – immer mit persönlicher Note.",
-      heading: "Unsere Geschichte",
+      story_heading: "Unsere Geschichte",
       p2: "Mit über 20 Jahren Praxiserfahrung und mehr als 100 erfolgreichen Projekten wissen wir, was in der Realität funktioniert. Wir haben für Behörden, Finanzwesen, Wohnungsbau, Vereine und den Mittelstand gearbeitet. Der Gründer ist sowohl Architekt als auch Arbeitsplatzspezialist mit tiefem Wissen über On-Premises und Cloud.",
+      background_heading: "Hintergrund & Expertise",
+      background_p: "Hybrionix wurde gegründet, um persönliche, sichere und flexible IT für Organisationen in Europa bereitzustellen. Wir verbinden Praxiserfahrung mit starkem Fokus auf Datenschutz, Compliance und maßgeschneiderte Lösungen. Unsere Expertise umfasst Architektur, Security, Migration, Beratung und Arbeitsplatzlösungen – immer individuell zugeschnitten.",
       values_heading: "Unsere Werte",
       values: [
         "Persönlicher und direkter Kontakt",
         "Maßgeschneiderte Lösungen, keine Standardware",
         "Engagement, Flexibilität und echte Hingabe",
         "Europäischer Datenschutz und Compliance"
+      ],
+      europe_heading: "Europäischer Ansatz",
+      europe: [
+        "Einhaltung europäischer Vorschriften (DSGVO, NIS2, etc.)",
+        "Datensouveränität und Datenschutz an erster Stelle",
+        "Zusammenarbeit mit vertrauenswürdigen lokalen und globalen Partnern"
       ],
       team_heading: "Unser Team",
       team: [
