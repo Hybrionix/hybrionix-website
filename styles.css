@@ -5,15 +5,21 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f7f7;
   color: #023047;
   line-height: 1.6;
-  padding-top: 80px;   /* already present for header */
-  padding-bottom: 80px; /* add this for footer */
+  padding-top: 80px;
+  padding-bottom: 80px;
   background: url('/pictures/hybrionx_background.png') no-repeat center center fixed;
   background-size: cover;
+  font-size: 1.08rem;
 }
 
 /* Header and navigation */
@@ -22,7 +28,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #ffffff;
-  border-bottom: 3px solid #008080; /* teal */
+  border-bottom: 3px solid #008080;
   box-shadow: 0 4px 6px rgba(0, 128, 128, 0.1);
   z-index: 1000;
 }
@@ -34,6 +40,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -49,32 +56,47 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-radius: 0; /* squared corners */
+  border-radius: 0;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  filter: drop-shadow(0 2px 6px #00b4d855);
+  animation: shine 2.5s infinite linear;
+}
+@keyframes shine {
+  0% { filter: drop-shadow(0 2px 6px #00b4d855) brightness(1); }
+  50% { filter: drop-shadow(0 2px 12px #90e0ef88) brightness(1.15); }
+  100% { filter: drop-shadow(0 2px 6px #00b4d855) brightness(1); }
 }
 
 /* Nav buttons */
 nav a {
   margin-left: 15px;
   padding: 8px 16px;
-  border-radius: 0; /* squared corners */
-  background-color: #00b4d8; /* teal blue */
+  border-radius: 0;
+  background-color: #00b4d8;
   color: white;
   font-weight: 600;
   text-decoration: none;
   box-shadow: 0 3px 5px rgba(0, 180, 216, 0.4);
-  transition: background-color 0.3s ease, transform 0.15s ease;
+  transition: background-color 0.3s, transform 0.15s;
   display: inline-block;
   user-select: none;
 }
 
-nav a:hover {
-  background-color: #0077b6; /* darker blue */
+nav a:hover,
+.nav-dropdown .dropdown-content a:hover,
+.nav-dropdown .dropdown-content a:focus {
+  background-color: #0077b6;
+  color: #fff;
   box-shadow: 0 5px 10px rgba(0, 119, 182, 0.6);
   transform: translateY(-2px);
 }
 
 nav a.active {
-  background-color: #009688; /* teal */
+  background-color: #009688;
   box-shadow: 0 5px 12px rgba(0, 150, 136, 0.8);
   cursor: default;
   transform: none;
@@ -96,7 +118,7 @@ nav a.active {
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
   z-index: 1002;
   flex-direction: column;
-  border-radius: 0; /* squared corners */
+  border-radius: 0;
   left: 0;
   top: 100%;
 }
@@ -112,23 +134,10 @@ nav a.active {
   display: block;
   border-bottom: 1px solid #e0e0e0;
   background: none;
-  border-radius: 0; /* squared corners */
+  border-radius: 0;
 }
 .nav-dropdown .dropdown-content a:last-child {
   border-bottom: none;
-}
-.nav-dropdown .dropdown-content a:hover,
-.nav-dropdown .dropdown-content a:focus {
-  background: #0077b6;
-  color: #fff;
-}
-@media (max-width: 800px) {
-  .nav-dropdown .dropdown-content {
-    position: static;
-    box-shadow: none;
-    min-width: 0;
-    border-radius: 0;
-  }
 }
 
 /* Hamburger button */
@@ -177,15 +186,25 @@ nav a.active {
   nav#main-nav.open {
     display: flex;
   }
-  nav#main-nav a {
+  nav#main-nav a,
+  .nav-dropdown .dropdown-content a {
     margin: 0;
-    padding: 16px;
+    padding: 18px 12px;
     border-bottom: 1px solid #e0e0e0;
     background: none;
     color: #0077b6;
     box-shadow: none;
     border-radius: 0;
     font-size: 1.1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .nav-dropdown .dropdown-content {
+    position: static;
+    box-shadow: none;
+    min-width: 0;
+    border-radius: 0;
+    width: 100%;
   }
   .lang-switch {
     margin-left: 0;
@@ -198,7 +217,7 @@ main {
   max-width: 960px;
   margin: 2.5rem auto;
   padding: 0 1rem;
-  background: rgba(255,255,255,0.85); /* subtle white overlay for readability */
+  background: rgba(255,255,255,0.85);
   border-radius: 18px;
   margin: 32px auto 96px auto;
   max-width: 900px;
@@ -287,7 +306,7 @@ form textarea {
   font-size: 1rem;
   font-family: inherit;
   color: #023047;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s;
 }
 
 form input:focus,
@@ -307,7 +326,7 @@ form button {
   cursor: pointer;
   font-weight: 700;
   letter-spacing: 1px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 form button:hover {
@@ -318,8 +337,8 @@ form button:hover {
 /* Footer */
 footer {
   text-align: center;
-  height: 64px;                /* set static height */
-  padding: 0;                  /* remove variable padding */
+  height: 64px;
+  padding: 0;
   border-top: 1px solid #90e0ef;
   color: #023047;
   font-size: 0.9rem;
@@ -332,20 +351,7 @@ footer {
   z-index: 1000;
   box-shadow: 0 -2px 8px rgba(0, 180, 216, 0.08);
   margin-top: 0;
-  line-height: 64px;           /* vertically center text */
-}
-
-.logo-icon {
-  display: inline-flex;
-  align-items: center;
-  filter: drop-shadow(0 2px 6px #00b4d855);
-  animation: shine 2.5s infinite linear;
-}
-
-@keyframes shine {
-  0% { filter: drop-shadow(0 2px 6px #00b4d855) brightness(1); }
-  50% { filter: drop-shadow(0 2px 12px #90e0ef88) brightness(1.15); }
-  100% { filter: drop-shadow(0 2px 6px #00b4d855) brightness(1); }
+  line-height: 64px;
 }
 
 .lang-switch {
@@ -362,4 +368,47 @@ footer {
 }
 .lang-switch img:hover {
   box-shadow: 0 0 6px #00b4d8;
+}
+
+/* --- Mobile improvements --- */
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .logo {
+    font-size: 1.2rem;
+    gap: 0.3rem;
+  }
+  .logo-icon svg {
+    width: 22px;
+    height: 22px;
+  }
+  main {
+    padding: 8px 2vw 16px 2vw;
+    border-radius: 0;
+    margin: 16px auto 80px auto;
+    box-shadow: none;
+  }
+  .hero {
+    padding: 1.5rem 0.5rem;
+    border-radius: 0;
+  }
+  .callout {
+    padding: 1rem 0.5rem;
+    border-radius: 0;
+  }
+  form {
+    padding: 1.2rem 0.5rem;
+    border-radius: 0;
+  }
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+  footer {
+    font-size: 0.8rem;
+    line-height: 48px;
+    height: 48px;
+  }
 }
